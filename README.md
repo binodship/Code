@@ -3,7 +3,7 @@ Web url code to insider vs code
 
 import requests
 
-url = "http://127.0.0.1:5500/"  # The base URL of your live server
+url = "http://127.0.0.1:5500/files"  # The base URL of your live server
 
 try:
     response = requests.get(url)
